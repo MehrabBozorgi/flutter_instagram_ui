@@ -201,7 +201,7 @@ class StorySectionWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      height: 120,
+      height: 125,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: StoryModel.storyData.length,

@@ -185,11 +185,11 @@ class ProfileScreen extends StatelessWidget {
                             RoundedRectangleBorder(borderRadius: BorderRadius.circular(7.5))),
                     onPressed: () {},
                     child: const Padding(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       child: Text(
                         'Edit Profile',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
+                            fontWeight: FontWeight.bold, fontSize: 14, color: Colors.black),
                       ),
                     ),
                   ),
@@ -201,11 +201,11 @@ class ProfileScreen extends StatelessWidget {
                             RoundedRectangleBorder(borderRadius: BorderRadius.circular(7.5))),
                     onPressed: () {},
                     child: const Padding(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       child: Text(
                         'Share profile',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
+                            fontWeight: FontWeight.bold, fontSize: 14, color: Colors.black),
                       ),
                     ),
                   ),
@@ -217,11 +217,11 @@ class ProfileScreen extends StatelessWidget {
                             RoundedRectangleBorder(borderRadius: BorderRadius.circular(7.5))),
                     onPressed: () {},
                     child: const Padding(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       child: Text(
                         'Contact',
                         style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
+                            fontWeight: FontWeight.bold, fontSize: 14, color: Colors.black),
                       ),
                     ),
                   ),

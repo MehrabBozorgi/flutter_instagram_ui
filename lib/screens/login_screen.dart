@@ -94,7 +94,7 @@ class LoginScreen extends StatelessWidget {
               ),
 
               ElevatedButton(
-                style: ElevatedButton.styleFrom(fixedSize: const Size(double.maxFinite, 50)),
+                style: ElevatedButton.styleFrom(fixedSize: const Size(double.maxFinite, 50),backgroundColor: Colors.blue),
                 onPressed: () {
                   Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
@@ -108,7 +108,7 @@ class LoginScreen extends StatelessWidget {
                   //   ),
                   // );
                 },
-                child: const Text('Log in'),
+                child:  Text('Log in',style: TextStyle(color: Colors.white),),
               ),
 
               // GestureDetector(
